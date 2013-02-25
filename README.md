@@ -1,10 +1,10 @@
-Chinstrap
+ChinStrap
 =========
-Chinstrap is some basic boilerplate code, generated originally by [Yeoman](http://yeoman.io), and massaged by yours truly, taking a nod from [Bootswatch](https://github.com/thomaspark/bootswatch/) to use Bootstrap LESS instead of SCSS and the themeing conventions of bootswatch.
+ChinStrap is some basic boilerplate code, generated originally by [Yeoman](http://yeoman.io), and massaged by yours truly, taking a nod from [Bootswatch](https://github.com/thomaspark/bootswatch/) to use Bootstrap LESS instead of SCSS and the themeing conventions of bootswatch.
 
 Requirements
 ------------
-Chinstrap requires [Node.js](http://nodejs.org/), and npm to be installed. Chinstrap also requires [Grunt](http://gruntjs.com/) and [Bower](http://twitter.github.com/bower). Yeoman is not required, however the project was generated with `v1.0beta`, so go [check them out](http://yeoman.io).
+ChinStrap requires [Node.js](http://nodejs.org/), and npm to be installed. ChinStrap also requires [Grunt](http://gruntjs.com/) and [Bower](http://twitter.github.com/bower). Yeoman is not required, however the project was generated with `v1.0beta`, so go [check them out](http://yeoman.io).
 
 Install Guide
 -------------
@@ -12,7 +12,7 @@ Install Guide
 2. Install Grunt and Bower (may require sudo):
     npm install -g grunt-cli bower
 3. Clone this repository to create your app (replace myapp with the foldername of your choice):
-    git clone https://github.com/bdunn313/chinstrap.git myapp
+    git clone https://github.com/bdunn313/ChinStrap.git myapp
 4. move into your app and install dependencies (see `package.json` and `component.json`):
     cd myapp && grunt install && bower install
 5. Start the local server:
@@ -20,7 +20,7 @@ Install Guide
 
 Usage
 -----
-Chinstrap allows you to create custom theme files in a manner similar to the method used by [Bootswatch](https://github.com/thomaspark/bootswatch/), but without the need for a makefile. Instead, grunt spools up a node webserver for you to use in development, and watches / compiles as you edit less files, without having to edit bootstrap's core less files directly.
+ChinStrap allows you to create custom theme files in a manner similar to the method used by [Bootswatch](https://github.com/thomaspark/bootswatch/), but without the need for a makefile. Instead, grunt spools up a node webserver for you to use in development, and watches / compiles as you edit less files, without having to edit bootstrap's core less files directly.
 
 Less files are in the `styles` folder. `styles/theme` has your two theme files, `themefile.less` and `vars.less`.
 - `themefile.less` is where you place your bootstrap overrides that cannot be achieved simply by changing variables.
