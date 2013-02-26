@@ -10,13 +10,21 @@ Install Guide
 -------------
 1. Install Node & npm.
 2. Install Grunt and Bower (may require sudo):
+    
         npm install -g grunt-cli bower
+
 3. Clone this repository to create your app (replace myapp with the foldername of your choice):
+        
         git clone https://github.com/bdunn313/ChinStrap.git myapp
+
 4. move into your app and install dependencies (see `package.json` and `component.json`):
+        
         cd myapp && grunt install && bower install
+
 5. Start the local server:
+        
         grunt server
+
 
 Usage
 -----
