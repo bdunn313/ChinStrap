@@ -33,6 +33,7 @@ If you want to create another theme, simply duplicate the `styles/theme` directo
 Author
 ------
 [Brad Dunn](http://github.com/bdunn313)
+
 http://braddunn.com/
 
 Thanks
